@@ -1,3 +1,5 @@
+NOTE: The purpose of this version of socket.io-erlang is to allow the project to be built using the latest non-agnerized version of rebar, both as standalone and as a dependency in a collection of applications.
+
 Socket.IO for Erlang
 ====================
 
