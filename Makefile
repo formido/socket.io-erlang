@@ -1,13 +1,13 @@
 all: compile
 
 deps:
-	@./rebar get-deps
+	@rebar get-deps
 
 compile: deps
-	@./rebar compile
+	@rebar compile
 
 test: force
-	@./rebar eunit skip_deps=true
+	@rebar eunit skip_deps=true
 
 force: 
 	@true
