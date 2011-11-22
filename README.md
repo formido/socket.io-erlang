@@ -1,7 +1,9 @@
-NOTE: The purpose of this version of socket.io-erlang is to allow the project to be built using the latest non-agnerized version of rebar, both as standalone and as a dependency in a collection of applications.
-
 Socket.IO for Erlang
 ====================
+
+## Fork Notes
+
+This project builds with non-agner rebar. The standard-rebar branch will keep an up-to-date mirror of yrashk/socket.io-erlang, other than the build process changes. This branch will continue on, potentially with fixes, enhancements, and experiments as I try to understand how and whether to use this project.
 
 ## Socket.IO
 
