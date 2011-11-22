@@ -10,7 +10,7 @@
           terminate/2, code_change/3]).
 
 main(_) ->
-    appmon:start(),
+    application:start(appmon),
     application:start(sasl),
     application:start(misultin),
     application:start(socketio),
