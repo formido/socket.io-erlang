@@ -1,7 +1,7 @@
 Socket.IO for Erlang
 ====================
 
-## Fork Notes
+## Fork notes
 
 This project builds with non-agner rebar. The standard-rebar branch will keep an up-to-date mirror of yrashk/socket.io-erlang, other than the build process changes. This branch will continue on, potentially with fixes, enhancements, and experiments as I try to understand how and whether to use this project.
 
